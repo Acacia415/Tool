@@ -351,6 +351,12 @@ function main(config) {
       "url": "https://github.com/Acacia415/Tool/raw/X/Clash/Rules/Github.list",
       "path": "./rules/Github.list"
     },
+    "Oracle": {
+      ...ruleProviderCommon,
+      "behavior": "classical",
+      "url": "https://github.com/Acacia415/Tool/raw/X/Clash/Rules/Oracle.list",
+      "path": "./rules/Oracle.list"
+    },
     "Microsoft": {
       ...ruleProviderCommon,
       "behavior": "classical",
