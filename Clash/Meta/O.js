@@ -184,7 +184,6 @@ function main(config) {
       "include-all": true,
       "proxies": ["手动切换", "香港节点", "美国节点", "狮城节点", "日本节点", "台湾节点", "DIRECT"],
       "include-all": true,
-      "icon": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Dark/Oracle.png"
     },
     {
       ...groupBaseOption,
