@@ -102,6 +102,7 @@ function main(config) {
       "name": "国外网站",
       "type": "select",
       "proxies": ["手动切换", "香港节点", "美国节点", "狮城节点", "日本节点", "台湾节点", "DIRECT"],
+      "include-all": true,
       "icon": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Global.png"
     },
     {
@@ -109,6 +110,7 @@ function main(config) {
       "name": "国际媒体",
       "type": "select",
       "proxies": ["手动切换", "香港节点", "美国节点", "狮城节点", "日本节点", "台湾节点", "DIRECT"],
+      "include-all": true,
       "icon": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png"
     },
     {
@@ -116,6 +118,7 @@ function main(config) {
       "name": "苹果服务",
       "type": "select",
       "proxies": ["手动切换", "香港节点", "美国节点", "狮城节点", "日本节点", "台湾节点", "DIRECT"],
+      "include-all": true,
       "icon": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple_1.png"
     },
     {
@@ -123,6 +126,7 @@ function main(config) {
       "name": "微软服务",
       "type": "select",
       "proxies": ["手动切换", "香港节点", "美国节点", "狮城节点", "日本节点", "台湾节点", "DIRECT"],
+      "include-all": true,
       "icon": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Microsoft.png"
     },
     {
@@ -130,6 +134,7 @@ function main(config) {
       "name": "谷歌服务",
       "type": "select",
       "proxies": ["手动切换", "香港节点", "美国节点", "狮城节点", "日本节点", "台湾节点", "DIRECT"],
+      "include-all": true,
       "icon": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Google_Search.png"
     },
     {
@@ -137,6 +142,7 @@ function main(config) {
       "name": "电报消息",
       "type": "select",
       "proxies": ["手动切换", "香港节点", "美国节点", "狮城节点", "日本节点", "台湾节点", "DIRECT"],
+      "include-all": true,
       "icon": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Telegram.png"
     },
     {
@@ -144,6 +150,7 @@ function main(config) {
       "name": "推特消息",
       "type": "select",
       "proxies": ["手动切换", "香港节点", "美国节点", "狮城节点", "日本节点", "台湾节点", "DIRECT"],
+      "include-all": true,
       "icon": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Twitter.png"
     },
     {
@@ -151,6 +158,7 @@ function main(config) {
       "name": "AI",
       "type": "select",
       "proxies": ["手动切换", "香港节点", "美国节点", "狮城节点", "日本节点", "台湾节点", "DIRECT"],
+      "include-all": true,
       "icon": "https://raw.githubusercontent.com/Orz-3/mini/master/Color/OpenAI.png"
     },
     {
@@ -158,6 +166,7 @@ function main(config) {
       "name": "游戏平台",
       "type": "select",
       "proxies": ["手动切换", "香港节点", "美国节点", "狮城节点", "日本节点", "台湾节点", "DIRECT"],
+      "include-all": true,
       "icon": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Game.png"
     },
     {
@@ -166,6 +175,7 @@ function main(config) {
       "type": "select",
       "include-all": true,
       "proxies": ["手动切换", "香港节点", "美国节点", "狮城节点", "日本节点", "台湾节点", "DIRECT"],
+      "include-all": true,
       "icon": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Emby.png"
     },
     {
@@ -180,6 +190,7 @@ function main(config) {
       "name": "兜底分流",
       "type": "select",
       "proxies": ["手动切换", "香港节点", "美国节点", "狮城节点", "日本节点", "台湾节点", "DIRECT"],
+      "include-all": true,
       "icon": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Final.png"
     },
     // 地区分组
