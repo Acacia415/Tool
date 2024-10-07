@@ -173,15 +173,14 @@ function main(config) {
       ...groupBaseOption,
       "name": "Emby",
       "type": "select",
-      "include-all": true,
       "proxies": ["手动切换", "香港节点", "美国节点", "狮城节点", "日本节点", "台湾节点", "DIRECT"],
       "include-all": true,
       "icon": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Emby.png"
     },
-    ...groupBaseOption,
+    {
+      ...groupBaseOption,
       "name": "Oracle",
       "type": "select",
-      "include-all": true,
       "proxies": ["手动切换", "香港节点", "美国节点", "狮城节点", "日本节点", "台湾节点", "DIRECT"],
       "include-all": true,
       "icon": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Dark/Oracle.png"
@@ -397,6 +396,7 @@ function main(config) {
     "RULE-SET,Steam,游戏平台",
     "RULE-SET,Epic,游戏平台",
     "RULE-SET,Emby,Emby",
+    "RULE-SET,Oracle,Oracle",
     "RULE-SET,Spotify,国际媒体",
     "RULE-SET,Bahamut,国际媒体",
     "RULE-SET,Netflix,国际媒体",
