@@ -179,14 +179,6 @@ function main(config) {
     },
     {
       ...groupBaseOption,
-      "name": "Oracle",
-      "type": "select",
-      "proxies": ["手动切换", "香港节点", "美国节点", "狮城节点", "日本节点", "台湾节点", "DIRECT"],
-      "include-all": true,
-      "icon": "https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Dark/Oracle.png"
-    },
-    {
-      ...groupBaseOption,
       "name": "广告拦截",
       "type": "select",
       "proxies": ["REJECT", "DIRECT"],
@@ -358,12 +350,6 @@ function main(config) {
       "url": "https://github.com/Acacia415/Tool/raw/X/Clash/Rules/Github.list",
       "path": "./rules/Github.list"
     },
-    "Oracle": {
-      ...ruleProviderCommon,
-      "behavior": "classical",
-      "url": "https://github.com/Acacia415/Tool/raw/X/Clash/Rules/Oracle.list",
-      "path": "./rules/Oracle.list"
-    },
     "Microsoft": {
       ...ruleProviderCommon,
       "behavior": "classical",
@@ -396,7 +382,6 @@ function main(config) {
     "RULE-SET,Steam,游戏平台",
     "RULE-SET,Epic,游戏平台",
     "RULE-SET,Emby,Emby",
-    "RULE-SET,Oracle,Oracle",
     "RULE-SET,Spotify,国际媒体",
     "RULE-SET,Bahamut,国际媒体",
     "RULE-SET,Netflix,国际媒体",
