@@ -44,7 +44,7 @@ function main(config) {
     "ipv6": false,
     "enhanced-mode": "fake-ip",
     "fake-ip-range": "198.18.0.1/16",
-    "fake-ip-filter": ["*", "+.lan", "+.local", "+.direct", "+.msftconnecttest.com", "+.msftncsi.com"],
+    "fake-ip-filter": ["*", "+.lan", "+.local", "+.direct", "+.msftconnecttest.com", "+.msftncsi.com","+.bing.com"],
     "default-nameserver": ["system"],
     "nameserver": ["223.5.5.5", "119.29.29.29", "180.184.1.1"],
     "nameserver-policy": {
@@ -394,10 +394,6 @@ function main(config) {
     "GEOSITE,gfw,国外网站",
     "GEOIP,lan,DIRECT",
     "GEOIP,CN,DIRECT",
-    
-    //针对cn.bing.com的直连规则
-    "DOMAIN-SHFFIX,cn.bing.com,DIRECT"
-    
     "MATCH,兜底分流"
   ];
 
